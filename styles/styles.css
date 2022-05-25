@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Serif', serif;
+}
+
+header {
+  background-color: rgb(241, 174, 138);
+  max-width: 100%;
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 45%;
+  position: fixed;
+}
+
+nav {
+  width: 70%;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.menu-opcion {
+  margin-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.home {
+  background-image: url("../assets/6a11b2dab35eb1eb15ba6b7a7c964722.jpg");
+  height: 100vh;
+  background-size: 100% 100%; 
+}
+.home h1{
+  color: rgb(238, 252, 48);
+  font-size: 48px;
+  padding-top: 40vh;
+  margin: 0;
+  padding-left:10% ;
+}
+
+.home h4 {
+  color:rgb(124, 65, 180)
+  font-size:28px;
+  margin-top:15vh;
+  padding-left:10%;
+}
+
+.aboutme {
+  height: 500px;
+  background-color: rgb(159, 216, 238);
+  text-align: center;
+  
+}
+.mypictures {
+  border-radius: 50%;
+  margin-top: 40px;
+  height:200px;
+  width: 200px;
+  border: 6px double rgb(5, 64, 104);
+}
+
+.rectangulo {
+  
+  height: 200px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 2px solid rgb(5, 64, 104);
+
+}
+
+
+.hobbies{
+  height: 500px;
+  background-color: rgb(240, 255, 102);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex{
+  height: 480px;
+  width: 340px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left:auto;
+  border: 4px inset rgb(228, 144, 49);
+  border-radius: 8px;
+
+
+}
+.hobbies-picture-Uno {
+  
+  background-image: url("../assets/R.jpg");
+  height: 20vh;
+  background-size: 50% 50%; 
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  margin-left: 70px;
+  border: 5px double rgb(228, 144, 49);
+  margin-top: 20px;
+
+
+}
+
+.hobbies-texto-Uno{
+  height:110px;
+  width: 200px;
+  border: 2px solid rgb(228, 144, 49);
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 70px;
+  font-size: 19px;
+
+
+}
+
+.hobbies-boton-Uno {
+  
+
+  text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 23px;
+    color: #f3f1f1;
+    background-color:rgb(228, 144, 49);;
+    border-radius: 6px;
+    border: 2px solid #ff5100;
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+
+
+}
+
+.hobbies-picture-Dos {
+
+  background-image: url("../assets/deporte.jpg");
+  height: 20vh;
+  background-size: 50% 50%; 
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  margin-left: 70px;
+  border: 5px double rgb(228, 144, 49);
+  margin-top: 20px;
+
+}
+
+.hobbies-texto-Dos {
+  height:110px;
+  width: 200px;
+  border: 2px solid rgb(228, 144, 49);
+  margin-top: 10px;
+  text-align: center;
+  margin-left:70px;
+  font-size:19px;
+
+}
+
+.hobbies-boton-Dos {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 23px;
+  color: #f3f1f1;
+  background-color:rgb(228, 144, 49);;
+  border-radius: 6px;
+  border: 2px solid #ff5100;
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+  cursor: pointer;
+
+
+}
+
+.hobbies-picture-Tres {
+
+  background-image: url("../assets/papas-fritas-II-1068x708.jpg");
+  height: 20vh;
+  background-size: 50% 50%; 
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  margin-left: 70px;
+  border: 5px double rgb(228, 144, 49);
+  margin-top: 20px;
+
+}
+
+.hobbies-texto-Tres {
+
+  height:110px;
+  width: 200px;
+  border: 2px solid rgb(228, 144, 49);
+  margin-top: 10px;
+  text-align: center;
+  margin-left:70px;
+  font-size:19px;
+
+}
+
+.hobbies-boton-Tres {
+text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 23px;
+    color: #f3f1f1;
+    background-color:rgb(228, 144, 49);;
+    border-radius: 6px;
+    border: 2px solid #ff5100;
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+
+.fotos{
+  height: 500px;
+  background-color: rgb(218, 143, 82);
+  padding: 20px;
+}
+
+.fotos h1 {
+text-align: center;
+background-color: #036969;
+color: #f3f1f1;
+
+}
+
+.fotos div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+
+}
+
+.fotos div img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: 40px;
+  border: 2px solid #036969;
+
+}
